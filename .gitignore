@@ -1,0 +1,41 @@
+# Private inputs and locally generated results. data/ publishes Python code only.
+/data/*
+!/data/*.py
+/results/
+
+# Data, labels, model checkpoints and generated numerical outputs.
+*.nh7
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.joblib
+*.pkl
+*.pickle
+*.npz
+*.npy
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.mat
+*.h5
+*.hdf5
+*.parquet
+*.feather
+*.tif
+*.tiff
+*.jpg
+*.jpeg
+*.png
+!/figures/architecture.png
+
+# Python, editors and local environments.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
